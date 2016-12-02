@@ -15,9 +15,9 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 @RestController
-public class PushNotificationsController {
+public class HomeController {
 
-    private static final Logger log = LoggerFactory.getLogger(PushNotificationsController.class);
+    private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 
     @Autowired
     AndroidPushNotificationsService androidPushNotificationsService;
@@ -29,7 +29,7 @@ public class PushNotificationsController {
         JSONObject body = new JSONObject();
         // JsonArray registration_ids = new JsonArray();
         // body.put("registration_ids", registration_ids);
-        body.put("to", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXuujPwZpLgLpji_");
+        body.put("to", "xxxxxxxxxxxxxxxxxxxjPwZpLgLpji_");
         body.put("priority", "high");
         // body.put("dry_run", true);
 
