@@ -1,6 +1,6 @@
 # Firebase Push Notifications, with Java & Spring Framework
 
- [1]: https://i.stack.imgur.com/r1quX.jpg
+<img src="https://raw.githubusercontent.com/AndreiD/testingpushnotifications/master/example.JPG" alt="push notification firebase">
 
 a simple server for you to send push notifications to android devices.
 
